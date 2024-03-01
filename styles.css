@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Added background color for better readability */
+    color: whitesmoke;
+}
+
+header {
+    background-color:#000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Adjusted width of the header logo */
+    height: auto; /* Added to maintain aspect ratio */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color:black; /* Added background color for better readability */
+    border-radius: 10px; /* Added border radius for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Added box shadow for depth */
+}
+
+.container h1 {
+    color: whitesmoke;
+}
+
+.container img {
+    max-width: 100%; /* Maximum width is 100% of its container */
+    max-height: 500px; /* Maximum height is 200 pixels */
+    margin-bottom: 20px; /* Added margin for separation */
+}
+
+.container p {
+    color: white;
+    line-height: 1.6;
+}
+
+.container ul {
+    padding-left: 20px;
+}
+
+.container ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:#000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 80px; /* Adjusted width of the footer logo */
+    height: auto; /* Added to maintain aspect ratio */
+}
